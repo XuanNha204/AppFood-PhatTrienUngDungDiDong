@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+    <TextView
+        style="@style/Text.Section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/choose_image" />
+
+    <TextView
+        android:id="@+id/optionCamera"
+        style="@style/ProfileMenuItem"
+        android:paddingStart="24dp"
+        android:text="@string/take_photo"
+        app:drawableStartCompat="@drawable/ic_camera" />
+
+    <TextView
+        android:id="@+id/optionGallery"
+        style="@style/ProfileMenuItem"
+        android:paddingStart="24dp"
+        android:text="@string/pick_from_gallery"
+        app:drawableStartCompat="@drawable/ic_image" />
+
+    <TextView
+        android:id="@+id/optionLink"
+        style="@style/ProfileMenuItem"
+        android:paddingStart="24dp"
+        android:text="@string/paste_image_link"
+        android:visibility="gone"
+        app:drawableStartCompat="@drawable/ic_link" />
+</LinearLayout>

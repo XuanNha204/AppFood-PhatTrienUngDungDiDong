@@ -1,0 +1,21 @@
+# Local editor settings and screenshots
+.idea/
+.screens/
+*.iml
+
+# Dependencies and generated build output
+node_modules/
+.gradle/
+.kotlin/
+build/
+local.properties
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+serviceAccountKey.json
+*.jks
+*.keystore
+key.properties

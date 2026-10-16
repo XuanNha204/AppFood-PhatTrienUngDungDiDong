@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="app_tagline">Món ngon giao tận nơi</string>
+
+    <!-- Auth -->
+    <string name="login_title">Chào mừng trở lại!</string>
+    <string name="login_subtitle">Đăng nhập để tiếp tục đặt món ngon</string>
+    <string name="register_title">Tạo tài khoản</string>
+    <string name="register_subtitle">Đăng ký để khám phá hàng trăm món ngon</string>
+    <string name="hint_name">Họ và tên</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="hint_current_password">Mật khẩu hiện tại</string>
+    <string name="hint_new_password">Mật khẩu mới</string>
+    <string name="hint_otp">Mã OTP (6 số)</string>
+    <string name="hint_address">Địa chỉ</string>
+    <string name="action_login">Đăng nhập</string>
+    <string name="action_register">Đăng ký</string>
+    <string name="action_forgot_password">Quên mật khẩu?</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="have_account">Đã có tài khoản?</string>
+    <string name="forgot_title">Quên mật khẩu</string>
+    <string name="forgot_step1">Nhập email đã đăng ký, chúng tôi sẽ gửi mã OTP để đặt lại mật khẩu.</string>
+    <string name="forgot_step2">Nhập mã OTP vừa được gửi tới email và mật khẩu mới của bạn.</string>
+    <string name="action_send_otp">Gửi mã OTP</string>
+    <string name="action_reset_password">Đặt lại mật khẩu</string>
+    <string name="action_resend_otp">Gửi lại mã</string>
+    <string name="resend_in">Gửi lại sau %ds</string>
+
+    <!-- Main -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_favorites">Yêu thích</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_profile">Tài khoản</string>
+
+    <!-- Home -->
+    <string name="hello_user">Xin chào, %s 👋</string>
+    <string name="home_question">Hôm nay bạn muốn ăn gì?</string>
+    <string name="search_hint">Tìm món ăn yêu thích…</string>
+    <string name="section_categories">Danh mục</string>
+    <string name="section_popular">🔥 Món phổ biến</string>
+    <string name="section_recommended">Gợi ý cho bạn</string>
+    <string name="see_all">Xem tất cả</string>
+    <string name="all_categories">Tất cả danh mục</string>
+    <string name="all_foods">Tất cả món ăn</string>
+    <string name="food_count">%d món</string>
+    <string name="popular_badge">Phổ biến</string>
+
+    <!-- Food list -->
+    <string name="sort_default">Phù hợp</string>
+    <string name="sort_popular">Bán chạy</string>
+    <string name="sort_rating">Đánh giá cao</string>
+    <string name="sort_price_asc">Giá thấp</string>
+    <string name="sort_price_desc">Giá cao</string>
+    <string name="sort_newest">Mới nhất</string>
+    <string name="action_add_food">Thêm món</string>
+    <string name="my_foods">Món ăn tôi đã đăng</string>
+    <string name="empty_foods_title">Không tìm thấy món nào</string>
+    <string name="empty_foods_message">Hãy thử từ khoá khác hoặc chọn danh mục khác nhé</string>
+
+    <!-- Food detail -->
+    <string name="description">Mô tả</string>
+    <string name="minutes">%d phút</string>
+    <string name="calories">%d kcal</string>
+    <string name="add_to_cart_with_price">Thêm vào giỏ • %s</string>
+    <string name="added_to_cart">Đã thêm %1$d × %2$s vào giỏ</string>
+    <string name="view_cart">Xem giỏ</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xoá</string>
+    <string name="confirm_delete_food">Bạn có chắc muốn xoá món \"%s\"?</string>
+    <string name="rating_count">(%d đánh giá)</string>
+    <string name="sold_count">Đã bán %d</string>
+
+    <!-- Add/Edit food -->
+    <string name="add_food_title">Thêm món mới</string>
+    <string name="edit_food_title">Sửa món ăn</string>
+    <string name="tap_to_choose_image">Chạm để chọn ảnh món ăn</string>
+    <string name="hint_food_name">Tên món</string>
+    <string name="hint_category">Danh mục</string>
+    <string name="hint_price">Giá (VNĐ)</string>
+    <string name="hint_prep_time">Thời gian chuẩn bị (phút)</string>
+    <string name="hint_calories">Calories (kcal)</string>
+    <string name="hint_description">Mô tả món ăn</string>
+    <string name="action_save">Lưu</string>
+    <string name="choose_image">Chọn ảnh</string>
+    <string name="take_photo">Chụp ảnh</string>
+    <string name="pick_from_gallery">Chọn từ thư viện</string>
+    <string name="paste_image_link">Dán link ảnh từ Internet</string>
+    <string name="image_link_hint">Link ảnh (https://…)</string>
+    <string name="image_link_helper">Mở ảnh trên trình duyệt → nhấn giữ → Sao chép địa chỉ hình ảnh</string>
+    <string name="invalid_image_link">Link ảnh phải bắt đầu bằng http:// hoặc https://</string>
+    <string name="use_this_image">Dùng ảnh này</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Món yêu thích</string>
+    <string name="empty_favorites_title">Chưa có món yêu thích</string>
+    <string name="empty_favorites_message">Nhấn ♥ trên món ăn để lưu lại món bạn thích</string>
+
+    <!-- Cart -->
+    <string name="cart_title">Giỏ hàng</string>
+    <string name="clear_cart">Xoá tất cả</string>
+    <string name="confirm_clear_cart">Xoá toàn bộ món trong giỏ hàng?</string>
+    <string name="empty_cart_title">Giỏ hàng trống</string>
+    <string name="empty_cart_message">Hãy thêm vài món ngon vào giỏ nhé!</string>
+    <string name="explore_foods">Khám phá món ngon</string>
+    <string name="subtotal">Tạm tính</string>
+    <string name="delivery_fee">Phí giao hàng</string>
+    <string name="total">Tổng cộng</string>
+    <string name="free">Miễn phí</string>
+    <string name="checkout">Đặt hàng</string>
+    <string name="free_ship_remaining">Mua thêm %s để được miễn phí giao hàng</string>
+    <string name="free_ship_reached">🎉 Bạn được miễn phí giao hàng!</string>
+    <string name="removed_from_cart">Đã xoá %s</string>
+    <string name="undo">Hoàn tác</string>
+
+    <!-- Checkout -->
+    <string name="checkout_title">Xác nhận đơn hàng</string>
+    <string name="delivery_info">Thông tin giao hàng</string>
+    <string name="payment_method">Phương thức thanh toán</string>
+    <string name="payment_cod">Thanh toán khi nhận hàng (COD)</string>
+    <string name="payment_banking">Chuyển khoản ngân hàng</string>
+    <string name="hint_note">Ghi chú cho quán (không bắt buộc)</string>
+    <string name="order_summary">Tóm tắt đơn hàng</string>
+    <string name="place_order">Xác nhận đặt hàng</string>
+    <string name="order_success_title">Đặt hàng thành công!</string>
+    <string name="order_success_message">Mã đơn %s. Đơn hàng của bạn đang được chuẩn bị 🍳</string>
+    <string name="view_orders">Xem đơn hàng</string>
+    <string name="continue_shopping">Tiếp tục mua sắm</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Đơn hàng của tôi</string>
+    <string name="order_detail_title">Chi tiết đơn hàng</string>
+    <string name="empty_orders_title">Chưa có đơn hàng</string>
+    <string name="empty_orders_message">Các đơn hàng bạn đặt sẽ xuất hiện tại đây</string>
+    <string name="order_code">Đơn #%s</string>
+    <string name="cancel_order">Huỷ đơn hàng</string>
+    <string name="confirm_cancel_order">Bạn có chắc muốn huỷ đơn hàng này?</string>
+    <string name="status_pending">Chờ xác nhận</string>
+    <string name="status_confirmed">Đã xác nhận</string>
+    <string name="status_delivering">Đang giao</string>
+    <string name="status_completed">Hoàn thành</string>
+    <string name="status_cancelled">Đã huỷ</string>
+    <string name="order_items_count">%d món</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Tài khoản</string>
+    <string name="edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="my_orders">Đơn hàng của tôi</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="confirm_logout">Bạn có chắc muốn đăng xuất?</string>
+    <string name="profile_updated">Cập nhật hồ sơ thành công</string>
+    <string name="avatar_updated">Đã cập nhật ảnh đại diện</string>
+    <string name="change_avatar">Đổi ảnh đại diện</string>
+
+    <!-- Common -->
+    <string name="cancel">Huỷ</string>
+    <string name="ok">Đồng ý</string>
+    <string name="close">Đóng</string>
+    <string name="retry">Thử lại</string>
+    <string name="loading">Đang tải…</string>
+    <string name="uploading_image">Đang tải ảnh lên…</string>
+    <string name="error_required">Vui lòng nhập %s</string>
+    <string name="error_email">Email không hợp lệ</string>
+    <string name="error_password_length">Mật khẩu tối thiểu 6 ký tự</string>
+    <string name="error_password_mismatch">Mật khẩu nhập lại không khớp</string>
+    <string name="error_phone">Số điện thoại không hợp lệ</string>
+    <string name="error_network">Không thể kết nối máy chủ. Kiểm tra mạng hoặc địa chỉ API.</string>
+    <string name="session_expired">Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại</string>
+
+    <!-- Chatbot AI -->
+    <string name="chat_title">Trợ lý Food AI</string>
+    <string name="chat_subtitle">Gợi ý món theo khẩu vị của bạn</string>
+    <string name="chat_open">Trợ lý AI</string>
+    <string name="chat_hint">Hỏi Food AI về món ăn…</string>
+    <string name="chat_send">Gửi</string>
+    <string name="chat_clear">Xoá cuộc trò chuyện</string>
+    <string name="chat_clear_confirm">Toàn bộ tin nhắn với trợ lý sẽ bị xoá. Bạn chắc chứ?</string>
+    <string name="chat_welcome">Xin chào %1$s! 👋 Mình là **Food AI**. Mình có thể gợi ý món theo khẩu vị, ngân sách hay lượng calo, và giúp bạn chọn món cho đủ miễn phí giao hàng. Bạn muốn ăn gì hôm nay?</string>
+    <string name="chat_retry">Gửi lại</string>
+    <string name="chat_added">Đã thêm %1$s vào giỏ</string>
+    <string name="chat_add_to_cart">Thêm vào giỏ</string>
+    <string name="chat_thinking">Đang trả lời…</string>
+    <string-array name="chat_suggestions">
+        <item>🍽️ Hôm nay nên ăn gì?</item>
+        <item>💰 Gợi ý món dưới 50K</item>
+        <item>🥗 Món nào ít calo?</item>
+        <item>🚚 Giỏ hàng đủ freeship chưa?</item>
+        <item>⭐ Món được đánh giá cao nhất</item>
+        <item>🍰 Tráng miệng ngon</item>
+    </string-array>
+</resources>

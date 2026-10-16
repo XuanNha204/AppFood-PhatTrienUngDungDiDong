@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_auth_header"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="28dp"
+            android:paddingBottom="28dp">
+
+            <FrameLayout
+                android:id="@+id/avatarContainer"
+                android:layout_width="108dp"
+                android:layout_height="108dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgAvatar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:contentDescription="@string/change_avatar"
+                    android:padding="3dp"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/ShapeCircle"
+                    app:strokeColor="@color/white"
+                    app:strokeWidth="3dp" />
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="bottom|end"
+                    android:background="@drawable/bg_circle_white"
+                    android:importantForAccessibility="no"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_camera"
+                    app:tint="@color/primary" />
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/avatarProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:indeterminate="true"
+                    android:visibility="gone"
+                    app:indicatorColor="@color/primary" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="#E6FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="#E6FFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Menu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_rounded"
+            android:elevation="1dp"
+            android:orientation="vertical"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:id="@+id/menuEditProfile"
+                style="@style/ProfileMenuItem"
+                android:text="@string/edit_profile"
+                app:drawableEndCompat="@drawable/ic_chevron_right"
+                app:drawableStartCompat="@drawable/ic_person" />
+
+            <TextView
+                android:id="@+id/menuOrders"
+                style="@style/ProfileMenuItem"
+                android:text="@string/my_orders"
+                app:drawableEndCompat="@drawable/ic_chevron_right"
+                app:drawableStartCompat="@drawable/ic_receipt" />
+
+            <TextView
+                android:id="@+id/menuMyFoods"
+                style="@style/ProfileMenuItem"
+                android:text="@string/my_foods"
+                app:drawableEndCompat="@drawable/ic_chevron_right"
+                app:drawableStartCompat="@drawable/ic_restaurant" />
+
+            <TextView
+                android:id="@+id/menuAddFood"
+                style="@style/ProfileMenuItem"
+                android:text="@string/add_food_title"
+                app:drawableEndCompat="@drawable/ic_chevron_right"
+                app:drawableStartCompat="@drawable/ic_add" />
+
+            <TextView
+                android:id="@+id/menuChangePassword"
+                style="@style/ProfileMenuItem"
+                android:text="@string/change_password"
+                app:drawableEndCompat="@drawable/ic_chevron_right"
+                app:drawableStartCompat="@drawable/ic_lock" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_dark_mode"
+                    app:tint="@color/primary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:text="@string/dark_mode"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchDarkMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            style="@style/Widget.FoodApp.Button.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/logout"
+            android:textColor="@color/danger"
+            app:icon="@drawable/ic_logout"
+            app:iconGravity="textStart"
+            app:iconTint="@color/danger"
+            app:strokeColor="@color/danger" />
+
+        <TextView
+            android:id="@+id/tvVersion"
+            style="@style/Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

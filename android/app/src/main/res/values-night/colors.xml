@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_light">#3D2418</color>
+    <color name="bg_screen">#121214</color>
+    <color name="bg_card">#1E1E22</color>
+    <color name="bg_input">#2A2A2F</color>
+    <color name="text_primary">#F2F2F5</color>
+    <color name="text_secondary">#A0A0AA</color>
+    <color name="divider">#2E2E33</color>
+    <color name="shimmer_base">#2C2C31</color>
+</resources>
